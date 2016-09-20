@@ -1,0 +1,50 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Add Records Form</title>
+	<link rel="stylesheet" type="text/css" href="company.css">
+    </head>
+	<body>
+	<header>
+		<a href="ShowProducts.php"><h1>Honest Pete's Used Car Emporium</h1><a>
+		<nav>
+		<a class="button" href="ShowProducts.php">Cars For Sale</a>
+		<a class="button" href="insert.html">Add Cars</a>
+		<a class="button" href="insertUserDetails.html">Add Customer</a>
+		<a class="button" href="displaycart.php">View Cart</a>
+		<a class="button" href="setupDB.php" id="Warning">Re-Setup Databases!</a>
+		</nav>
+	</header>
+    <main>
+	<!--Create inputs for User to enter Name, Quantity, Price, and a Picture-->
+    <form action="insert.php" method="post"><!--Sends values to insert.php page-->
+        <p>
+            <label for="Name">Name:</label>
+            <input type="text" name="name" id="Name">
+        </p>
+		<p>
+			<label for="Quantity">Quantity:</label>
+			<input type="number" name="quantity" id="Quantity">
+		</p>
+        <p>
+            <label for="Price">Price:</label>
+            <input type="number" name="price" id="Price">
+        </p>
+		<p>
+			<label for="Image">Image:</label>
+            <input type="text" name="image" id="Image">
+		</p>
+        <!--Display button to post values to insert.php webpage-->
+        <input type="submit" value="Add Records">
+    </form>
+	</main>
+	<footer>
+		<details> 
+			<summary><small>&copy; 2015 Peter Burton all rights reserved!</small></summary>
+			<p><small><a href="mailto:p.burton@honestpetes.ie">Send me an email at p.burton@honestpetes.ie</a></small></p>
+		</details> 
+	</footer>
+    </body>
+    </html>
+

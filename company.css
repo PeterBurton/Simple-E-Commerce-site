@@ -1,0 +1,93 @@
+/** General Styles **/
+
+* { 
+	margin: 0;
+	}
+body{
+	width: 95%;
+	margin: auto;
+	background: white;
+	}
+main {
+	font-family: Tahoma, Arial, Calibri, "Lucida Sans", "sans-serif";
+	Text-align: center;
+	margin: 0.5em 0 0.5em 0;
+}
+a{
+	text-decoration: none;
+}		
+/** Navigation & Header styles **/
+#Warning{background-color: red;
+}
+nav a.button { 
+	background: #525659; 
+	color: white; 
+	font-family: Tahoma, Arial, Calibri, "Lucida Sans", "sans-serif";
+	text-decoration: none; 
+	border-radius: 20px;
+	display: inline-block; 
+	width: 200px; 
+	text-align: center;
+	margin: 0.5em 0 0 0;
+	padding-top: 0.25em;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	padding-bottom: 0.25em;
+	}
+nav a.button:hover{background: #a3c2c2;}
+header{
+	text-align:center;
+	border-radius:8px;
+	}
+footer{
+	font-family: Tahoma, Arial, Calibri, "Lucida Sans", "sans-serif";
+	clear: both;
+	text-align:center;
+	color: 525659;
+	margin: 0.5em 0 0.5em 0;
+		}
+h1{ 
+	text-align: center;
+	background-color: #525659;
+	color:white;
+	font-family:Tahoma, Arial, Calibri, "Lucida Sans", "sans-serif";
+	font-weight: bold;
+	font-style: italic;
+	font-size: 4em;
+	border-radius: 20px;
+	}		
+table{
+	border: inset;
+	width: 75%;
+	margin: auto;
+	border-spacing: 0.2em;
+	table-layout: auto;
+	font-family: Tahoma, Arial, Calibri, "Lucida Sans", "sans-serif";
+	caption-side: top;
+	border-radius:4px;
+	background-color: #525659;
+	color: white
+	}
+td{
+	font-family: calibri, Tahoma, Arial, "Lucida Sans", "sans-serif";
+	Text-align: center;
+	border: inset;
+	border-radius:4px;
+	}
+th{
+	font-family: Tahoma, Arial, Calibri, "Lucida Sans", "sans-serif";
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1em;
+	border: inset;	
+	border-radius:4px;
+	}	
+form{
+	text-align: center;
+	margin: auto;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	font-family: Tahoma;
+	}	
